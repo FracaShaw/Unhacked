@@ -2,7 +2,7 @@ pragma solidity ^0.8.6;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-import "forge-std/console.sol";
+// import "forge-std/console.sol";
 
 struct Bounty {
     bool isClosed;
@@ -49,13 +49,7 @@ contract UnhackedInsurance {
     function createBountyRequest(uint256 _bountyId, uint256 _amount, address _bountyToken) public {
         require(bountyLedger[_bountyId].isClosed == false, "Bounty is closed");
 
-        console.log("SENDER", msg.sender);
-        console.log("ALLOWANCE", ERC20(_bountyToken).allowance(msg.sender, address(this)));
-        console.log("BALANCE HACKER", ERC20(_bountyToken).balanceOf(msg.sender));
-        // console.log("DIFF", ERC20(_bountyToken).balanceOf(msg.sender) - _amount);
-        console.log("AMOUNT", _amount);
         ERC20(_bountyToken).transferFrom(msg.sender, address(this), _amount);
-
         bountyRequests[_bountyId].push(BountyRequest(msg.sender, _amount, _bountyToken, false));
         // emit Something;
     }

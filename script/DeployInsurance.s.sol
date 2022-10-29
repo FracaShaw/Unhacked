@@ -47,7 +47,6 @@ contract DeployInsurance is Script {
     function setBountyRequest(uint256 _bountyId, uint256 _amount) public {
         vm.startBroadcast(hunter);
         bountyToken.approve(address(unhackedI), _amount);
-        console.log("HUNTER", hunter);
         unhackedI.createBountyRequest(_bountyId, _amount, address(bountyToken));
         vm.stopBroadcast();
     }
@@ -95,7 +94,6 @@ contract DeployInsurance is Script {
     // }
 
     function run() public {
-        // uint256 deployerPk = 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80;
         vm.startBroadcast();
 
         unhackedI = new UnhackedInsurance();
@@ -105,7 +103,6 @@ contract DeployInsurance is Script {
         bountyToken = new WrappedBTC();
         console.log("BTC contract address: ", address(bountyToken));
 
-        vm.stopBroadcast();
 
 
         hunterKey = 0x7c852118294e51e653712a81e05800f419141751be58f605c371e15141b007a6;
@@ -115,13 +112,15 @@ contract DeployInsurance is Script {
         owner = vm.addr(ownerKey);
         receiverAddr = owner;
 
-        bountyToken.getFaucet(100000000000 ether, hunter);
-        paymentToken.getFaucet(10000 ether, owner);
+        bountyToken.getFaucet(1 ether, hunter);
+        paymentToken.getFaucet(1 ether, owner);
+
+        vm.stopBroadcast();
 
         uint256 bId = 0;
         uint256 rId = 0;
-        uint256 offer = 12 gwei;
-        uint256 valueRetrived = 1098 gwei;
+        uint256 offer = 1200 gwei;
+        uint256 valueRetrived = 2400 gwei;
 
         string memory s = "To deploy blablabla";
 

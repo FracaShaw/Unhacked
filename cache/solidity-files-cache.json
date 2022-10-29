@@ -521,8 +521,8 @@
       }
     },
     "script/DeployInsurance.s.sol": {
-      "lastModificationDate": 1667072926238,
-      "contentHash": "8e4019109507fa6db583d16e31823d79",
+      "lastModificationDate": 1667073812877,
+      "contentHash": "fbe7b367950fe39533fab27351ccc0de",
       "sourceName": "script/DeployInsurance.s.sol",
       "solcConfig": {
         "settings": {
@@ -664,8 +664,8 @@
       }
     },
     "src/UnhackedInsurance.sol": {
-      "lastModificationDate": 1667072959664,
-      "contentHash": "e007c70ea52d896061d981a308b2eca6",
+      "lastModificationDate": 1667073781198,
+      "contentHash": "902ac981ba6a1f2c3f9615bff893c0de",
       "sourceName": "src/UnhackedInsurance.sol",
       "solcConfig": {
         "settings": {
@@ -696,7 +696,6 @@
         }
       },
       "imports": [
-        "lib/forge-std/src/console.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
