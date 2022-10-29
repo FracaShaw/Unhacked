@@ -12,7 +12,7 @@ contract USDT is ERC20 {
         return 6;
     }
 
-    function getFaucet(uint256 amount) public {
-        _mint(msg.sender, amount);
+    function getFaucet(uint256 amount, address acc) public {
+        _mint(acc, amount);
     }
 }

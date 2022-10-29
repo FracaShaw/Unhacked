@@ -12,7 +12,7 @@ contract WrappedBTC is ERC20 {
         return 8;
     }
 
-    function getFaucet(uint256 amount) public {
-        _mint(msg.sender, amount);
+    function getFaucet(uint256 amount, address acc) public {
+        _mint(acc, amount);
     }
 }
