@@ -45,7 +45,7 @@
       "versionRequirement": ">=0.5.0",
       "artifacts": {
         "DSTest": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "test.sol/DSTest.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "test.sol/DSTest.json"
         }
       }
     },
@@ -88,7 +88,7 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "Script": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Script.sol/Script.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "Script.sol/Script.json"
         }
       }
     },
@@ -128,7 +128,7 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "stdJson": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "StdJson.sol/stdJson.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "StdJson.sol/stdJson.json"
         }
       }
     },
@@ -173,16 +173,16 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "Test": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Test.sol/Test.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "Test.sol/Test.json"
         },
         "stdError": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Test.sol/stdError.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "Test.sol/stdError.json"
         },
         "stdMath": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Test.sol/stdMath.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "Test.sol/stdMath.json"
         },
         "stdStorage": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Test.sol/stdStorage.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "Test.sol/stdStorage.json"
         }
       }
     },
@@ -220,7 +220,7 @@
       "versionRequirement": ">=0.6.0, <0.9.0",
       "artifacts": {
         "Vm": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Vm.sol/Vm.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "Vm.sol/Vm.json"
         }
       }
     },
@@ -258,7 +258,7 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "console.sol/console.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "console.sol/console.json"
         }
       }
     },
@@ -296,7 +296,7 @@
       "versionRequirement": ">=0.4.22, <0.9.0",
       "artifacts": {
         "console2": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "console2.sol/console2.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "console2.sol/console2.json"
         }
       }
     },
@@ -338,7 +338,7 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "ERC20": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "ERC20.sol/ERC20.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "ERC20.sol/ERC20.json"
         }
       }
     },
@@ -376,7 +376,7 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "IERC20": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "IERC20.sol/IERC20.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "IERC20.sol/IERC20.json"
         }
       }
     },
@@ -416,7 +416,7 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "IERC20Metadata": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "IERC20Metadata.sol/IERC20Metadata.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "IERC20Metadata.sol/IERC20Metadata.json"
         }
       }
     },
@@ -454,14 +454,14 @@
       "versionRequirement": "^0.8.0",
       "artifacts": {
         "Context": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Context.sol/Context.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "Context.sol/Context.json"
         }
       }
     },
-    "script/Contract.s.sol": {
-      "lastModificationDate": 1667041261696,
-      "contentHash": "3642d05d9c479368231825c40aaa276a",
-      "sourceName": "script/Contract.s.sol",
+    "script/Deploy.s.sol": {
+      "lastModificationDate": 1667053362688,
+      "contentHash": "2c3e940e9998c7bd9a1d38338b149662",
+      "sourceName": "script/Deploy.s.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -493,18 +493,68 @@
         "lib/forge-std/src/StdJson.sol",
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
-        "lib/forge-std/src/console2.sol"
+        "lib/forge-std/src/console2.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "src/USDT.sol",
+        "src/Unhacked.sol",
+        "src/WBTC.sol"
       ],
-      "versionRequirement": "^0.8.13",
+      "versionRequirement": "^0.8.6",
       "artifacts": {
-        "ContractScript": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Contract.s.sol/ContractScript.json"
+        "Deploy": {
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "Deploy.s.sol/Deploy.json"
+        }
+      }
+    },
+    "src/USDT.sol": {
+      "lastModificationDate": 1667046583385,
+      "contentHash": "1cf3e364c47e1be631c54c8f62686a25",
+      "sourceName": "src/USDT.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "=0.8.6",
+      "artifacts": {
+        "USDT": {
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "USDT.sol/USDT.json"
         }
       }
     },
     "src/Unhacked.sol": {
-      "lastModificationDate": 1667042702590,
-      "contentHash": "983a10ebeb488a03fbe99da5561e9a23",
+      "lastModificationDate": 1667048387663,
+      "contentHash": "02eb2c2121fcd0314f9d43b1e9a26544",
       "sourceName": "src/Unhacked.sol",
       "solcConfig": {
         "settings": {
@@ -541,13 +591,56 @@
       "versionRequirement": "^0.8.6",
       "artifacts": {
         "Unhacked": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Unhacked.sol/Unhacked.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "Unhacked.sol/Unhacked.json"
+        }
+      }
+    },
+    "src/WBTC.sol": {
+      "lastModificationDate": 1667046588427,
+      "contentHash": "bf01239c4f6dd17e7954a7d0644f0050",
+      "sourceName": "src/WBTC.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "=0.8.6",
+      "artifacts": {
+        "WrappedBTC": {
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "WBTC.sol/WrappedBTC.json"
         }
       }
     },
     "test/Contract.t.sol": {
-      "lastModificationDate": 1667041261696,
-      "contentHash": "848ba83feec29a2e4d286c118102ae20",
+      "lastModificationDate": 1667048427736,
+      "contentHash": "66212786aa725c8c4d945fc88abd4ff8",
       "sourceName": "test/Contract.t.sol",
       "solcConfig": {
         "settings": {
@@ -584,10 +677,10 @@
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol"
       ],
-      "versionRequirement": "^0.8.13",
+      "versionRequirement": "^0.8.6",
       "artifacts": {
         "ContractTest": {
-          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "Contract.t.sol/ContractTest.json"
+          "0.8.6+commit.11564f7e.Darwin.appleclang": "Contract.t.sol/ContractTest.json"
         }
       }
     }

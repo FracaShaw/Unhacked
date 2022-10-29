@@ -485,7 +485,6 @@
             "src": "305:6:9"
           }
         ],
-        "canonicalName": "IERC20Metadata",
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {

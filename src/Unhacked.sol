@@ -21,6 +21,10 @@ contract Unhacked {
 
     function createSettlement(Settlement memory settlement) public returns(uint16 index) {
         ERC20(settlement.paymentToken).transferFrom(msg.sender, address(this), settlement.offer);
+        
+        settlement.canceled = false;
+        settlement.completed = false;
+        settlement.creator = address(msg.sender);
 
         settlements.push(settlement);
 

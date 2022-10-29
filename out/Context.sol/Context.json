@@ -228,7 +228,6 @@
         ],
         "abstract": true,
         "baseContracts": [],
-        "canonicalName": "Context",
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {

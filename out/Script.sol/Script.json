@@ -3904,7 +3904,6 @@
         ],
         "abstract": true,
         "baseContracts": [],
-        "canonicalName": "Script",
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,

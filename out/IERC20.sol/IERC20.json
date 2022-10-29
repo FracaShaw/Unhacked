@@ -240,7 +240,6 @@
               "src": "225:158:8",
               "text": " @dev Emitted when `value` tokens are moved from one account (`from`) to\n another (`to`).\n Note that `value` may be zero."
             },
-            "eventSelector": "ddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
             "name": "Transfer",
             "nameLocation": "394:8:8",
             "parameters": {
@@ -348,7 +347,6 @@
               "src": "466:148:8",
               "text": " @dev Emitted when the allowance of a `spender` for an `owner` is set by\n a call to {approve}. `value` is the new allowance."
             },
-            "eventSelector": "8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
             "name": "Approval",
             "nameLocation": "625:8:8",
             "parameters": {
@@ -1096,7 +1094,6 @@
         ],
         "abstract": false,
         "baseContracts": [],
-        "canonicalName": "IERC20",
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {

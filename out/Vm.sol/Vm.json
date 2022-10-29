@@ -11231,7 +11231,6 @@
         ],
         "abstract": false,
         "baseContracts": [],
-        "canonicalName": "Vm",
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,

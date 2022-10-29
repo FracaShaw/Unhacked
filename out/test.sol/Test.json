@@ -530,7 +530,6 @@
             "id": 2422,
             "nodeType": "UsingForDirective",
             "src": "245:32:3",
-            "global": false,
             "libraryName": {
               "id": 2419,
               "name": "stdStorage",
@@ -638,7 +637,6 @@
             "nodeType": "EventDefinition",
             "src": "659:31:3",
             "anonymous": false,
-            "eventSelector": "fb102865d50addddf69da9b5aa1bced66c80cf869a5c8d0471a467e18ce9cab1",
             "name": "log_array",
             "nameLocation": "665:9:3",
             "parameters": {
@@ -691,7 +689,6 @@
             "nodeType": "EventDefinition",
             "src": "695:30:3",
             "anonymous": false,
-            "eventSelector": "890a82679b470f2bd82816ed9b161f97d8b967f37fa3647c21d5bf39749e2dd5",
             "name": "log_array",
             "nameLocation": "701:9:3",
             "parameters": {
@@ -744,7 +741,6 @@
             "nodeType": "EventDefinition",
             "src": "730:31:3",
             "anonymous": false,
-            "eventSelector": "40e1840f5769073d61bd01372d9b75baa9842d5629a0c99ff103be1178a8e9e2",
             "name": "log_array",
             "nameLocation": "736:9:3",
             "parameters": {
@@ -798,7 +794,6 @@
             "nodeType": "EventDefinition",
             "src": "766:49:3",
             "anonymous": false,
-            "eventSelector": "00aaa39c9ffb5f567a4534380c737075702e1f7f14107fc95328e3b56c0325fb",
             "name": "log_named_array",
             "nameLocation": "772:15:3",
             "parameters": {
@@ -879,7 +874,6 @@
             "nodeType": "EventDefinition",
             "src": "820:48:3",
             "anonymous": false,
-            "eventSelector": "a73eda09662f46dde729be4611385ff34fe6c44fbbc6f7e17b042b59a3445b57",
             "name": "log_named_array",
             "nameLocation": "826:15:3",
             "parameters": {
@@ -960,7 +954,6 @@
             "nodeType": "EventDefinition",
             "src": "873:49:3",
             "anonymous": false,
-            "eventSelector": "3bcfb2ae2e8d132dd1fce7cf278a9a19756a9fceabe470df3bdabb4bc577d1bd",
             "name": "log_named_array",
             "nameLocation": "879:15:3",
             "parameters": {
@@ -7634,7 +7627,7 @@
                     ]
                   },
                   "documentation": "@solidity memory-safe-assembly",
-                  "evmVersion": "london",
+                  "evmVersion": "berlin",
                   "externalReferences": [
                     {
                       "declaration": 2978,
@@ -8109,7 +8102,7 @@
                     ]
                   },
                   "documentation": "@solidity memory-safe-assembly",
-                  "evmVersion": "london",
+                  "evmVersion": "berlin",
                   "externalReferences": [
                     {
                       "declaration": 3008,
@@ -8621,7 +8614,7 @@
                     ]
                   },
                   "documentation": "@solidity memory-safe-assembly",
-                  "evmVersion": "london",
+                  "evmVersion": "berlin",
                   "externalReferences": [
                     {
                       "declaration": 3039,
@@ -9134,7 +9127,7 @@
                     ]
                   },
                   "documentation": "@solidity memory-safe-assembly",
-                  "evmVersion": "london",
+                  "evmVersion": "berlin",
                   "externalReferences": [
                     {
                       "declaration": 3071,
@@ -33586,7 +33579,6 @@
             "src": "232:6:3"
           }
         ],
-        "canonicalName": "Test",
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
@@ -34722,7 +34714,6 @@
         ],
         "abstract": false,
         "baseContracts": [],
-        "canonicalName": "stdError",
         "contractDependencies": [],
         "contractKind": "library",
         "fullyImplemented": true,
@@ -35069,7 +35060,6 @@
             "nodeType": "EventDefinition",
             "src": "27709:71:3",
             "anonymous": false,
-            "eventSelector": "9c9555b1e3102e3cf48f427d79cb678f5d9bd1ed0ad574389461e255f95170ed",
             "name": "SlotFound",
             "nameLocation": "27715:9:3",
             "parameters": {
@@ -35198,7 +35188,6 @@
             "nodeType": "EventDefinition",
             "src": "27785:51:3",
             "anonymous": false,
-            "eventSelector": "080fc4a96620c4462e705b23f346413fe3796bb63c6f8d8591baec0e231577a5",
             "name": "WARNING_UninitedSlot",
             "nameLocation": "27791:20:3",
             "parameters": {
@@ -44057,7 +44046,7 @@
                     ]
                   },
                   "documentation": "@solidity memory-safe-assembly",
-                  "evmVersion": "london",
+                  "evmVersion": "berlin",
                   "externalReferences": [
                     {
                       "declaration": 5788,
@@ -48941,7 +48930,7 @@
                           ]
                         },
                         "documentation": "@solidity memory-safe-assembly",
-                        "evmVersion": "london",
+                        "evmVersion": "berlin",
                         "externalReferences": [
                           {
                             "declaration": 6156,
@@ -49226,7 +49215,6 @@
         ],
         "abstract": false,
         "baseContracts": [],
-        "canonicalName": "stdStorage",
         "contractDependencies": [],
         "contractKind": "library",
         "fullyImplemented": true,
@@ -51060,7 +51048,6 @@
         ],
         "abstract": false,
         "baseContracts": [],
-        "canonicalName": "stdMath",
         "contractDependencies": [],
         "contractKind": "library",
         "fullyImplemented": true,
