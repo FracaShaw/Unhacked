@@ -2,7 +2,6 @@ node_modules
 
 #hardhat files
 cache
-broadcast
 lib
 artifacts
 frontend/src/hardhat
