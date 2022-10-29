@@ -10,6 +10,7 @@ struct Bounty {
     uint256 prizeAmount;
     address paymentToken;
     address receiver;
+    string title;
     string description;
 }
 
@@ -28,7 +29,8 @@ contract UnhackedInsurance {
         uint256 _amount,
         address _paymentToken,
         address _receiver,
-        string memory description
+        string memory _title,
+        string memory _description
     ) public {
         bountyLedger.push(
             Bounty(
@@ -37,7 +39,8 @@ contract UnhackedInsurance {
                 _amount,
                 _paymentToken,
                 _receiver,
-                description
+                _title,
+                _description
             )
         );
 

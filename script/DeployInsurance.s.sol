@@ -38,9 +38,9 @@ contract DeployInsurance is Script {
     // 3 company -> accept request
     // be happy
 
-    function setBounty(uint256 _amount, string memory _description) public {
+    function setBounty(uint256 _amount, string memory _title, string memory _description) public {
         vm.startBroadcast(owner);
-        unhackedI.createBounty(_amount, address(paymentToken), receiverAddr, _description);
+        unhackedI.createBounty(_amount, address(paymentToken), receiverAddr, _title, _description);
         vm.stopBroadcast();
     }
 
@@ -121,8 +121,9 @@ contract DeployInsurance is Script {
         uint256 valueRetrived = 2400 gwei;
 
         string memory s = "To deploy blablabla";
+        string memory title = "To deploy blablabla";
 
-        setBounty(offer, s);
+        setBounty(offer, title, s);
         setBountyRequest(bId, valueRetrived);
         finishBounty(bId, rId, offer);
 
