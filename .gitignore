@@ -1,0 +1,22 @@
+node_modules
+
+#hardhat files
+cache
+artifacts
+frontend/src/hardhat
+coverage.json
+coverage
+frontend
+deployments
+.solhint.json
+
+# typescript bindings
+/src/
+
+# solidity compiler output
+out
+
+# OS generated files
+.DS_Store
+.DS_Store?
+
