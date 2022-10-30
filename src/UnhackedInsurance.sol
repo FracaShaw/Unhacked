@@ -103,6 +103,14 @@ contract UnhackedInsurance {
         emit BountyRequestClosed(_bountyId, _requestId);
     }
 
+    function getBountyList() public view returns (Bounty[] memory) {
+        return bountyLedger;
+    }
+
+    function getBountyRequestList(uint256 _bountId) public view returns (BountyRequest[] memory) {
+        return bountyRequests[_bountId];
+    }
+
     // function _removeBounty(uint256 _bountyId) internal {
     //     uint256 l = bountyLedger.length;
 
