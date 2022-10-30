@@ -103,11 +103,11 @@ contract DeployInsurance is Script {
         bountyToken = new WrappedBTC();
         console.log("BTC contract address: ", address(bountyToken));
 
-        hunterKey = 0x7c852118294e51e653712a81e05800f419141751be58f605c371e15141b007a6;
+        hunterKey = 0x4ce522d8ff77b42a9016c3c804c31ec582c264b6a8c8240f870c4a8136622d20;
         hunter = vm.addr(hunterKey);
 
-        ownerKey = 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a;
-        owner = vm.addr(ownerKey);
+        // ownerKey = 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a;
+        owner = vm.addr(hunterKey);
         receiverAddr = owner;
 
         bountyToken.getFaucet(1 ether, hunter);
@@ -125,7 +125,7 @@ contract DeployInsurance is Script {
 
         setBounty(offer, title, s);
         setBountyRequest(bId, valueRetrived);
-        finishBounty(bId, rId, offer);
+        // finishBounty(bId, rId, offer);
 
         // setVictimeAndHacker();
         // VictimeCreatesSettlement();
