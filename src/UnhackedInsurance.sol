@@ -107,7 +107,11 @@ contract UnhackedInsurance {
         return bountyLedger;
     }
 
-    function getBountyRequestList(uint256 _bountId) public view returns (BountyRequest[] memory) {
+    function getBountyRequestList(uint256 _bountId)
+        public
+        view
+        returns (BountyRequest[] memory)
+    {
         return bountyRequests[_bountId];
     }
 
