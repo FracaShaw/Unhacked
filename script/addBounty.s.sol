@@ -10,7 +10,7 @@ import "../src/WBTC.sol";
 contract addBounty is Script {
     function setUp() public {}
 
-    UnhackedInsurance unhackedI = UnhackedInsurance(0xD7C9fb30A9719A37dB1b4a2981B8d562D8FBE55B);
+    UnhackedInsurance unhackedI = UnhackedInsurance(0x5B85812dA1C35B29e10935551360C5daa6f80Dc4);
     USDT paymentToken = USDT(0x25784622b54C7Ca85073FB1eFd89402F7bcB3B4D);
     // WrappedBTC bountyToken;
 
